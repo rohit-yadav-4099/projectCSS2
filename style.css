@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e2d4d4;
+}
+
+.navbar{
+    height: 40px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(161, 159, 159);
+    padding: 10px;
+    font-size:40px;
+    padding-left: 50px;
+}
+
+.list{
+    color: #3087f1;
+}
+
+.addnewtask{
+    position:absolute;
+    top: 100px;
+    right: 100px;  
+}
+
+.add{
+    color: #3087f1;
+    font-size: 28px;
+    padding-left: 200px;
+    text-decoration: none;
+}
+.one{
+    color: #3087f1;
+    font-size: 28px;
+    padding-left: 200px;
+    text-decoration: none;
+}
+
+.one1{
+    color: black;
+    font-size: 25px;
+}
+.one2{
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 300px;
+    gap: 20px;
+    width: 1000px;
+    height: 500px;
+    margin-top: 100px;   
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+.trip{
+    text-decoration: none;
+    color: #3087f1;
+}
+
+h3{
+    color: #3087f1;
+    padding: 15px;
+    font-size: 20px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;  
+}
+.text{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.text1{
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.parent{
+    filter: blur(3px);
+}
+
+.addtask{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    margin-left: 40%;
+    top: 200px;
+    padding: 20px;  
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+.new{
+    width: 100px;
+    background-color: #3087f1;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 70%;
+}
+
+.on{
+    color: white;
+    text-decoration: none;
+}
+
+input[type=text]{
+    width: 90%;
+    height: 25px;
+    font-size: 100%;
+    font-weight: 50px;
+    border: 0;
+    background-color: #eee9e9;
+    padding: 5px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.a{
+    font-size: 25px;
+    padding-top: 10px;  
+
+}
+
+.container3{
+    display: flex;
+}
+
+.box1{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    margin: 80px 0px 0px 600px;
+    box-sizing: border-box; 
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+.cut{
+    font-size: 30px;
+    padding: 0px 0px 5px 5px;
+    text-decoration: none;
+    color: rgb(150, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;  
+}
+
+.rr{
+    display: flex;   
+}
+.div1{
+    margin: auto;
+    margin-top: 150px;
+    align-items: center;
+   }
+@media only screen and (min-width: 300px) and (max-width: 700px){
+  
+    .navbar{
+        font-size: 25px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .addnewtask{
+        position: relative;
+        top: 50px;
+        right: 50%;
+    }
+
+    .one1{
+        font-size: 20px;
+    }
+    .one2{
+        font-size: 20px;
+    }  
+    .container{
+        display: block;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .box{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .addtask{
+        width: 95%;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 10px;      
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .new{
+        margin-left: 60%;
+    }
+    .box1{
+        width: 95%;
+        height: 250px;
+        border-radius: 10px;
+        margin: 15% 0px 0px 10px;   
+    } 
+    .cut{
+        justify-content: end;
+        margin-left: 100px;
+    }
+    .container3{
+        display: flex;
+    }
+     .div1{
+      margin-top: 150px;
+     }.one{
+        color: #3087f1;
+        font-size: 28px;
+        padding-left: 0px;
+        text-decoration: none;
+    }
+    .add{
+        margin-left: 50%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 700px){
+
+    .cut{
+        justify-content: end;
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 700px){
+
+    .cut{
+        justify-content: end;
+        margin-left: 200px;
+    }
+}
