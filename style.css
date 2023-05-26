@@ -181,7 +181,7 @@ input[type=text]{
     margin-top: 150px;
     align-items: center;
    }
-@media only screen and (min-width: 300px) and (max-width: 700px){
+@media only screen and (min-width: 300px) and (max-width: 900px){
   
     .navbar{
         font-size: 25px;
@@ -252,7 +252,7 @@ input[type=text]{
         margin-left: 50%;
     }
 }
-@media only screen and (min-width: 375px) and (max-width: 700px){
+@media only screen and (min-width: 375px) and (max-width: 900px){
 
     .cut{
         justify-content: end;
@@ -260,7 +260,7 @@ input[type=text]{
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 700px){
+@media only screen and (min-width: 425px) and (max-width: 900px){
 
     .cut{
         justify-content: end;
